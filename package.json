@@ -1,0 +1,18 @@
+{
+  "name": "2101-flex-ts-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/index.ts",
+    "build:watch": "tsc --watch src/index.ts",
+    "start:watch": "node-dev --respawn src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-dev": "^7.0.0",
+    "typescript": "^4.2.4"
+  }
+}
